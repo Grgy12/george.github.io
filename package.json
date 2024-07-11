@@ -5,10 +5,8 @@
         "dev": "vite",
         "build": "vite build",
         "build:css": "postcss C:/Laravel Project/portfolio/src/app.css -o C:/Laravel Project/portfolio/resources/css/app.css"
-
-
-
     },
+    "postcss": "./postcss.config.cjs",
     "devDependencies": {
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0",
